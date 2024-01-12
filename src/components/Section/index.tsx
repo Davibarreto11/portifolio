@@ -2,7 +2,7 @@ import React from 'react'
 
 interface SectionProps {
   children: any
-  level: 'about' | 'barSkill' | 'contacts'
+  level: 'home' | 'about' | 'barSkill' | 'contacts'
 }
 
 const Section: React.FC<SectionProps> = ({ children, level }) => {

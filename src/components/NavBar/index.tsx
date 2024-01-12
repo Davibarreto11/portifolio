@@ -10,14 +10,14 @@ export const NavBar: React.FC = () => {
   return (
     <header>
       <nav className='w-full flex items-center justify-between flex-wrap pt-6'>
-        <h1 className='text-lg text-[#F1FAEE] ml-8 md:text-2xl md:ml-24'>
+        <h1 className='text-lg text-[#F1FAEE] ml-14 md:text-2xl xl:text-3xl'>
           <a href='#Home'>Davi Artur</a>
         </h1>
         <svg
           xmlns='https://www.w3.org/2000/svg'
           className='
           block
-          mr-8
+          mr-14
           h-6
           w-6
           cursor-pointer
@@ -30,7 +30,7 @@ export const NavBar: React.FC = () => {
           <path d='M4 6h16M4 12h16M4 18h16'></path>
         </svg>
         <button className={buttonClasses}>
-          <ul className='md:flex d:justify-between text-sm text-[#F1FAEE] md:text-xl md:mr-24'>
+          <ul className='md:flex d:justify-between text-sm text-[#F1FAEE] md:text-xl xl:text-2xl md:mr-24'>
             <li>
               <a className='block py-2 md:p-4 hover:translate-y-[-5px]' href='#Home'>Home</a>
             </li>
