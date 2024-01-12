@@ -1,7 +1,9 @@
-import React from "react";
+import React from 'react'
 
-export const NavBar:React.FC = () => {
-  return ( 
-    <div>NavBar</div>
+import { Container } from './styles'
+
+export const NavBar: React.FC = () => {
+  return (
+    <Container>NavBar</Container>
   )
 }

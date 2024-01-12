@@ -1,16 +1,16 @@
-import React from 'react';
+import React from 'react'
 
-import GlobalStyle from './styles/global';
+import GlobalStyle from './styles/global'
 
-import { NavBar } from './components/NavBar/NavBar';
+import { NavBar } from './components/NavBar/NavBar'
 
-function App() {
+const App: React.FC = () => {
   return (
     <>
       <GlobalStyle/ >
       <NavBar />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
