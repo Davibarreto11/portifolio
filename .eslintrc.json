@@ -14,6 +14,7 @@
     "plugins": [
         "react"
     ],
+    "ignorePatterns": ["tailwind.config.js"],
     "rules": {
         "@typescript-eslint/no-non-null-assertion": "off"
     }

@@ -3,7 +3,7 @@ import { FiAlignRight } from 'react-icons/fi'
 
 export const NavBar: React.FC = () => {
   return (
-    <div>
+    <div className='flex flex-col'>
       <h1>
         <a href='#Home'>Davi Artur</a>
       </h1>
