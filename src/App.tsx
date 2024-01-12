@@ -6,6 +6,7 @@ import Section from './components/Section'
 import { NavBar } from './components/NavBar'
 import { Home } from './components/Home'
 import { BarSkill } from './components/BarSkill'
+import { AboutMe } from './components/AboutMe'
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,9 @@ const App: React.FC = () => {
       </Section>
       <Section level='barSkill'>
         <BarSkill />
+      </Section>
+      <Section level='aboutMe'>
+        <AboutMe />
       </Section>
     </div>
   )
