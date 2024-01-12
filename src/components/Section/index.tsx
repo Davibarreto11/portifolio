@@ -2,14 +2,14 @@ import React from 'react'
 
 interface SectionProps {
   children: any
-  level: 'about' | 'responsabilities' | 'contacts'
+  level: 'about' | 'barSkill' | 'contacts'
 }
 
 const Section: React.FC<SectionProps> = ({ children, level }) => {
   return (
     <div
       id={level}
-      className={`flex justify-center ${level === 'responsabilities' ? 'bg-[#81b398]' : ''}`}
+      className={`flex justify-center ${level === 'barSkill' ? 'bg-[#81b398]' : ''}`}
       style={{ minHeight: '100vh' }}
     >
       <div className='flex' style={{ width: '80%' }}>
