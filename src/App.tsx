@@ -1,15 +1,14 @@
 import React from 'react'
 
-import GlobalStyle from './styles/global'
+import './styles/global.css'
 
-import { NavBar } from './components/NavBar/NavBar'
+import { NavBar } from './components/NavBar'
 
 const App: React.FC = () => {
   return (
-    <>
-      <GlobalStyle/ >
+    <div style={{ paddingRight: '8%', paddingLeft: '8%' }}>
       <NavBar />
-    </>
+    </div>
   )
 }
 
