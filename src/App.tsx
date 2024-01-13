@@ -8,6 +8,8 @@ import { Home } from './components/Home'
 import { BarSkill } from './components/BarSkill'
 import { AboutMe } from './components/AboutMe'
 import { Projects } from './components/Projects'
+import { Contacts } from './components/Contacts'
+import { Footer } from './components/Footer'
 
 const App: React.FC = () => {
   return (
@@ -25,6 +27,10 @@ const App: React.FC = () => {
       <Section level='projects'>
         <Projects />
       </Section>
+      <Section level='contacts'>
+        <Contacts/>
+      </Section>
+      <Footer />
     </div>
   )
 }
