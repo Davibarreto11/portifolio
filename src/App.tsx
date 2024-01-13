@@ -7,6 +7,7 @@ import { NavBar } from './components/NavBar'
 import { Home } from './components/Home'
 import { BarSkill } from './components/BarSkill'
 import { AboutMe } from './components/AboutMe'
+import { Projects } from './components/Projects'
 
 const App: React.FC = () => {
   return (
@@ -20,6 +21,9 @@ const App: React.FC = () => {
       </Section>
       <Section level='aboutMe'>
         <AboutMe />
+      </Section>
+      <Section level='projects'>
+        <Projects />
       </Section>
     </div>
   )
