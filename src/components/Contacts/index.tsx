@@ -40,7 +40,7 @@ export const Contacts: React.FC = () => {
         <strong className='font-bold text-2xl md:text-2xl lg:text-3xl xl:text-5xl 2xl:text-6sxl mt-4'>Let`s talk</strong>
 
         <div className='w-full flex items-start justify-center pl-4 sm:pl-0 sm:justify-start'>
-          <Button type='red' label='Submit'/>
+          <Button href='/' type='red' label='Submit'/>
         </div>
       </div>
       <div className='w-full h-1/3 flex flex-col justify-around sm:w-1/3 2xl: mt-6'>

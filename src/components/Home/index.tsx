@@ -40,8 +40,8 @@ export const Home: React.FC = () => {
         <h3 className='text-3xl md:text-3xl lg:text-5xl xl:text-7xl 2xl:text-[102px]'>Fullstack developer</h3>
 
         <div className='flex items-center'>
-          <Button type='red' label='My projects'/>
-          <Button type='none' label='My resume'/>
+          <Button href='' type='red' label='My projects'/>
+          <Button href='' type='none' label='My resume'/>
         </div>
       </div>
       <div className='w-72 md:w-1/3 2xl: mt-6'>
